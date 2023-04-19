@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="655.0" style="-fx-background-color: #38A2D6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homeworkconvert.ConvertPageController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="99.0" prefHeight="33.0" prefWidth="245.0" text="Currency Conversion System">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogOut" layoutX="469.0" layoutY="97.0" mnemonicParsing="false" onAction="#buttonLogOutAction" prefHeight="37.0" prefWidth="140.0" style="-fx-background-color: #f79c63;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="254.0" prefHeight="27.0" prefWidth="74.0" text="USD">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="395.0" layoutY="254.0" prefHeight="27.0" prefWidth="74.0" text="NIS">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="268.0" layoutY="304.0" prefHeight="27.0" prefWidth="74.0" text="TO">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsd" layoutX="112.0" layoutY="305.0" />
+      <TextField fx:id="tfNis" layoutX="357.0" layoutY="305.0" />
+      <Button fx:id="buttonConvert" layoutX="279.0" layoutY="396.0" mnemonicParsing="false" onAction="#buttonConvertAction" stylesheets="@../Css/Style.css" text="Convert" />
+   </children>
+</AnchorPane>

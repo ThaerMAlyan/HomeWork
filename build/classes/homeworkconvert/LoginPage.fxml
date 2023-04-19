@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="367.0" style="-fx-background-color: linear-gradient(to bottom right, darkblue, deepskyblue);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homeworkconvert.LoginPageController">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="123.0" layoutX="130.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/login.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelError" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="207.0" prefHeight="31.0" prefWidth="230.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="125.0" layoutY="277.0" prefHeight="27.0" prefWidth="128.0" text="User Name">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUserName" layoutX="95.0" layoutY="322.0" prefHeight="25.0" prefWidth="187.0" />
+      <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="56.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/userName.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="388.0" prefHeight="27.0" prefWidth="128.0" text="Password">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="tfPassword" layoutX="94.0" layoutY="444.0" prefHeight="25.0" prefWidth="187.0" />
+      <ImageView fitHeight="56.0" fitWidth="39.0" layoutX="281.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/password.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonSubmit" layoutX="127.0" layoutY="513.0" mnemonicParsing="false" onAction="#buttonSubmitAction" prefHeight="25.0" prefWidth="121.0" text="Login">
+         <stylesheets>
+            <URL value="@../Documents/NetBeansProjects/HomeWorkConvert/src/homeworkconvert/Style.css" />
+            <URL value="@../Css/Style.css" />
+         </stylesheets></Button>
+   </children>
+</AnchorPane>
